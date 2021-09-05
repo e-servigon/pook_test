@@ -33,5 +33,6 @@ class PokemonVO{
 //echo $vo->getId();
 
 //echo $vo->Id;
-
+//echo $vo->Id2;
+//echo #vo->Id3;
 ?>
