@@ -44,6 +44,7 @@ class PokemonDAO{
 // $vo = new PokemonVO();
 // $vo->setNombre("Pikachu");
 // $dao->insertar($vo);
-//  print_r($dao->selectAll());
+// print_r($dao->selectAll());
+// print_r(2);
 ?>
 
