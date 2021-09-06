@@ -37,6 +37,7 @@ class PokemonVO{
 //$vo->setNivel(34);
 //echo $vo->getNivel();
 
+
 //echo $vo->getId();
 
 //echo $vo->Id;
