@@ -24,6 +24,8 @@ class PokemonVO{
     public function getNombre(){
         return $this->Nombre;
     }
+
+    //getNivel();
 }
 
 //$vo = new PokemonVO();
