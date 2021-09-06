@@ -26,7 +26,7 @@ class PokemonDAO{
     }
 
     function insertar($vo){
-        $query = "INSERT INTO ".$this->tabla." (Pok_Nombre) VALUES('".$vo->getNombre()."') ";
+        $query = "INSERT INTO ".$this->tabla." (Pok_Nombre,Pok_Nivel) VALUES('".$vo->getNombre()."',".$vo->getNivel().") ";
         $res = mysqli_query($this->cnx, $query);
         if($res){
             return True;
