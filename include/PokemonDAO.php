@@ -20,13 +20,14 @@ class PokemonDAO{
             $vo = new PokemonVO();
             $vo->setId($fila["ID_Pokemon"]);
             $vo->setNombre($fila["Pok_Nombre"]);
+            $vo->setNivel($fila["Pok_Nivel"]);
             $listadoVo[] = $vo;
         }
         return $listadoVo;
     }
 
     function insertar($vo){
-        $query = "INSERT INTO ".$this->tabla." (Pok_Nombre) VALUES('".$vo->getNombre()."') ";
+        $query = "INSERT INTO ".$this->tabla." (Pok_Nombre) VALUES('".$vo->getNombre()."',".$vo->getTipo().") ";
         $res = mysqli_query($this->cnx, $query);
         if($res){
             return True;
