@@ -36,6 +36,7 @@ class PokemonVO{
 //$vo->setId(1);
 //aqui va un comment
 //echo $vo->getId();
+//AQUI VA LA PRUEBA DEL NIVEL
 
 //echo $vo->Id;
 //echo $vo->Id2;
