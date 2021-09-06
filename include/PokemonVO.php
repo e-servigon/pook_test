@@ -36,7 +36,7 @@ class PokemonVO{
 //$vo->setId(1);
 //aqui va un comment
 //echo $vo->getId();
-
+//aqui va otro comentario que vamos a probar
 //echo $vo->Id;
 //echo $vo->Id2;
 //echo #vo->Id3;
