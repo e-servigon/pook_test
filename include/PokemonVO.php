@@ -8,6 +8,7 @@ error_reporting(E_ALL);
 class PokemonVO{
     private $Id;
     private $Nombre;
+    //private $Nivel;
 
     public function setId($valor){
         $this->Id=$valor;
@@ -16,6 +17,8 @@ class PokemonVO{
     public function setNombre($valor){
         $this->Nombre=$valor;
     }
+
+    //set Nivel
 
     public function getId(){
         return $this->Id;
