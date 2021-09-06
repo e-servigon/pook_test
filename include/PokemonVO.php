@@ -9,6 +9,7 @@ class PokemonVO{
     private $Id;
     private $Nombre;
     private $Nivel;
+    private $Tipo;
 
     public function setId($valor){
         $this->Id=$valor;
