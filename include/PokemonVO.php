@@ -23,7 +23,11 @@ class PokemonVO{
     public function setNivel($valor){
         $this->Nivel=$valor;
     }
-    
+
+    public function setTipo($valor){
+        $this->Tipo=$valor;
+    }
+
     public function getId(){
         return $this->Id;
     }
